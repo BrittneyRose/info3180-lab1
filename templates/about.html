@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
     <h1>Brittney Rose</h1>
-    <p>Hello, I am a computer science student obsessed with knitting socks and toys ... and crocheting too.</p>
+    <p>Hello, I am a computer science student obsessed with knitting socks and toys ... and crocheting too. I also have a dog, I won't show him to you but here's an image of another cute dog:</p>
+    <img src="{{ url_for('static', filename='bulldog.jpg') }}" alt="Picture of a dog.">
+    <p>Image by <a href="https://pixabay.com/users/vlaaitje-1637107/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1047518">Ilona Krijgsman</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1047518">Pixabay</a> </p>
 </body>
 </html>

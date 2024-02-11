@@ -8,3 +8,20 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+
+h1{
+  color: burlywood;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+p{
+  font-family: monospace;
+}
+
+img{
+  height: 500px;
+  width: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 30px;
+}
